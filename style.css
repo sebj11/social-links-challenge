@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width: 375px) {
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    margin: 50px;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.hero {
+    padding: 2rem;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+}
+
+.container h1 {
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+}
+
+.container .yellow {
+    color: hsl(75, 94%, 57%);
+    padding-bottom: 2rem;
+    font-weight: 600;
+}
+
+.container p {
+    padding-bottom: 2rem;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+    /* background-color: hsl(0, 0%, 20%); */
+}
+
+.table nav {
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 10px;
+}
